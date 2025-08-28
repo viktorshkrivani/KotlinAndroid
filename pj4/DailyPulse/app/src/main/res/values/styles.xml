@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="t">
+        <item name="android:layout_width">396dp</item>
+        <item name="android:layout_height">79dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.Toolbar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="actionMenuTextColor">@android:color/white</item> <!-- Change to desired color -->
+    </style>
+</resources>
+
+

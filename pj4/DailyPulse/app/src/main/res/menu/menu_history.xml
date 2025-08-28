@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_my_notes"
+        android:title="My Notes"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_api_notes"
+        android:title="Explore"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_about"
+        android:title="About"
+        app:showAsAction="never" />
+</menu>

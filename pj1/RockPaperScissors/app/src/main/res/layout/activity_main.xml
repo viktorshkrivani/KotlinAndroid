@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/startMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Press one button to start the game"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+
+        <TextView
+            android:id="@+id/playerScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player Score: 0"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/computerScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Computer Score: 0"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp" />
+
+
+        <TextView
+            android:id="@+id/playerLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+
+        <ImageView
+            android:id="@+id/playerSelection"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="Player Selection" />
+
+
+        <TextView
+            android:id="@+id/computerLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Computer"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+
+        <ImageView
+            android:id="@+id/computerSelection"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="Computer Selection" />
+
+
+        <TextView
+            android:id="@+id/resultMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Winner Yet"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/rockButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rock"
+                android:backgroundTint="@color/rock_button_color"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/paperButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paper"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="@color/paper_button_color"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/scissorsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scissors"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="@color/scissors_button_color"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play Again"
+            android:visibility="gone"
+            android:backgroundTint="@color/reset_button_color"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

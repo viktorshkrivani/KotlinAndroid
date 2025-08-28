@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DailyPulse</string>
+
+    <string-array name="mood_options">
+        <item>Happy</item>
+        <item>Sad</item>
+        <item>Neutral</item>
+        <item>Anxious</item>
+    </string-array>
+</resources>
