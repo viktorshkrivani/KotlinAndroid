@@ -6,7 +6,7 @@ This repository contains 4 programming projects for CIS 2818 that explore mobile
 
 - **[Project 1 ✊📄✂️ — Rock-Paper-Scissors Game](./pj1/README.md)**  
   Building a simple Android game where the user plays Rock-Paper-Scissors against the computer.  
-  Tracks score, declares a winner at 10 points, and supports replay functionality.  
+  Tracks score, declares a winner at 10 points, and supports replay functionality. [Screenshots](./pj1/PROJECT%201%20VIKTOR%20SHKRIVANI.pdf)  
 
 - **[Project 2 🗺️ — State Capitals Quiz](./pj2/README.md)**  
   A quiz app that tests the user’s knowledge of U.S. state capitals.  
