@@ -1,4 +1,4 @@
-# Android Development (Kotlin) Projects  
+# Android Development (Kotlin) 
 
 This repository contains 4 programming projects for CIS 2818 that explore mobile development concepts in Kotlin.  
 
